@@ -1,0 +1,100 @@
+/* Estilo geral */
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Header */
+#inicio {
+    background-image: url('assets/header-bg.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    height: 100vh; /* Define a altura como 100% da viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#inicio .display-4 {
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#inicio .lead {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Sobre */
+#sobre p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Serviço */
+#serviço .card-img-top {
+    height: 200px; /* Define a altura fixa para as imagens */
+    object-fit: cover; /* Faz com que a imagem cubra a área do elemento sem distorcer */
+    width: 100%; /* Garante que a imagem se estenda por toda a largura do card */
+    display: block; /* Remove qualquer espaço extra abaixo da imagem */
+}
+
+/* Outros estilos para os cards */
+#serviço .card {
+    display: flex;
+    flex-direction: column;
+}
+
+#serviço .card-body {
+    flex: 1; /* Faz com que o corpo do card ocupe o espaço restante disponível */
+}
+
+/* Contato */
+#contato .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#contato .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+#contato button {
+    width: 150px;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+footer a {
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}

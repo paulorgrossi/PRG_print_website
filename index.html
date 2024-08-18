@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRG Print</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">PRG Print</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação do menu principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#serviço">Serviço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Início -->
+    <header id="inicio" class="vh-100 d-flex align-items-center text-center text-white" style="background-image: url('assets/header-bg.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4">PRG Print</h1><br>
+            <p class="lead">Manutenção | Configuração | Reparo de Plotters<br> Nobreaks e Impressoras em geral. </p>
+            <a href="#sobre" class="btn btn-primary btn-lg mt-3">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre nós</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>A PRG Print é a sua parceira confiável em soluções de manutenção e reparo para plotters, nobreaks e impressoras. Com anos de experiência no mercado, nossa empresa se destaca pela qualidade dos serviços oferecidos, rapidez no atendimento e compromisso com a satisfação dos nossos clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviço -->
+<section id="serviço" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Nossos Serviços</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/service1.jpg" class="card-img-top" alt="Imagem de manutenção de plotters">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Plotters</h5>
+                        <p class="card-text text-center">Realizamos diagnósticos e manutenções completas em plotters de várias marcas e modelos. Desde a limpeza interna até a substituição de peças, garantimos que seu plotter funcione com máxima eficiência e sem interrupções.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary">Ver Serviço</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/service2.jpg" class="card-img-top" alt="Imagem de manutenção de nobreaks">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Nobreaks</h5>
+                        <p class="card-text text-center">Oferecemos manutenção preventiva e corretiva para nobreaks, garantindo a estabilidade energética dos seus equipamentos. Isso assegura que suas operações não sejam interrompidas por falhas elétricas e que sua proteção esteja sempre em dia.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary">Ver Serviço</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/service3.jpg" class="card-img-top" alt="Imagem de manutenção de impressoras">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Impressoras</h5>
+                        <p class="card-text text-center">Especializamos em manutenção de impressoras jato de tinta, laser, matriciais e multifuncionais. Nosso serviço inclui substituição de peças e ajustes finos, prolongando a vida útil do equipamento e mantendo sua performance ideal.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary">Ver Serviço</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 PRG Print. Todos os direitos reservados.</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
